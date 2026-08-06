@@ -24,7 +24,7 @@ jobs:
           sudo -S rm -rf ${GITHUB_WORKSPACE}
           mkdir ${GITHUB_WORKSPACE}
       - name: checkout-step
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: setup-go-step
         uses: actions/setup-go@v5
