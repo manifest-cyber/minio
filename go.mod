@@ -95,7 +95,7 @@ require (
 	go.etcd.io/etcd/api/v3 v3.5.21
 	go.etcd.io/etcd/client/v3 v3.5.21
 	go.uber.org/atomic v1.11.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 	goftp.io/server/v2 v2.0.1
 	golang.org/x/crypto v0.37.0
 	golang.org/x/oauth2 v0.29.0
