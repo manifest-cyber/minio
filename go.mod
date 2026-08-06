@@ -1,8 +1,6 @@
 module github.com/minio/minio
 
-go 1.24.0
-
-toolchain go1.24.8
+go 1.25.0
 
 // Install tools using 'go install tool'.
 tool (
@@ -29,7 +27,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/eclipse/paho.mqtt.golang v1.5.0
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
-	github.com/fatih/color v1.18.0
+	github.com/fatih/color v1.19.0
 	github.com/felixge/fgprof v0.9.5
 	github.com/fraugster/parquet-go v0.12.0
 	github.com/go-ldap/ldap/v3 v3.4.11
@@ -100,7 +98,7 @@ require (
 	golang.org/x/crypto v0.37.0
 	golang.org/x/oauth2 v0.29.0
 	golang.org/x/sync v0.13.0
-	golang.org/x/sys v0.32.0
+	golang.org/x/sys v0.42.0
 	golang.org/x/term v0.31.0
 	golang.org/x/time v0.11.0
 	google.golang.org/api v0.230.0
