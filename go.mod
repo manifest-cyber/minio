@@ -66,7 +66,7 @@ require (
 	github.com/minio/simdjson-go v0.4.5
 	github.com/minio/sio v0.4.1
 	github.com/minio/xxml v0.0.3
-	github.com/minio/zipindex v0.4.0
+	github.com/minio/zipindex v0.5.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/nats-io/nats-server/v2 v2.11.1
 	github.com/nats-io/nats.go v1.41.2
