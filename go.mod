@@ -1,8 +1,6 @@
 module github.com/minio/minio
 
-go 1.24.0
-
-toolchain go1.24.8
+go 1.25
 
 // Install tools using 'go install tool'.
 tool (
@@ -11,7 +9,7 @@ tool (
 )
 
 require (
-	aead.dev/mtls v0.2.1
+	aead.dev/mtls v0.4.0
 	cloud.google.com/go/storage v1.52.0
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.18.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.9.0
