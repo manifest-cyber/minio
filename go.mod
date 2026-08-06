@@ -61,7 +61,7 @@ require (
 	github.com/minio/madmin-go/v3 v3.0.109
 	github.com/minio/minio-go/v7 v7.0.91
 	github.com/minio/mux v1.9.2
-	github.com/minio/pkg/v3 v3.1.3
+	github.com/minio/pkg/v3 v3.1.8
 	github.com/minio/selfupdate v0.6.0
 	github.com/minio/simdjson-go v0.4.5
 	github.com/minio/sio v0.4.1
