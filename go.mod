@@ -1,8 +1,6 @@
 module github.com/minio/minio
 
-go 1.24.0
-
-toolchain go1.24.8
+go 1.25.0
 
 // Install tools using 'go install tool'.
 tool (
@@ -29,7 +27,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/eclipse/paho.mqtt.golang v1.5.0
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
-	github.com/fatih/color v1.18.0
+	github.com/fatih/color v1.19.0
 	github.com/felixge/fgprof v0.9.5
 	github.com/fraugster/parquet-go v0.12.0
 	github.com/go-ldap/ldap/v3 v3.4.11
@@ -41,8 +39,8 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/inconshreveable/mousetrap v1.1.0
 	github.com/json-iterator/go v1.1.12
-	github.com/klauspost/compress v1.18.0
-	github.com/klauspost/cpuid/v2 v2.2.10
+	github.com/klauspost/compress v1.19.2
+	github.com/klauspost/cpuid/v2 v2.4.0
 	github.com/klauspost/filepathx v1.1.1
 	github.com/klauspost/pgzip v1.2.6
 	github.com/klauspost/readahead v1.4.0
@@ -59,7 +57,7 @@ require (
 	github.com/minio/kms-go/kes v0.3.1
 	github.com/minio/kms-go/kms v0.5.1-0.20250225090116-4e64ce8d0f35
 	github.com/minio/madmin-go/v3 v3.0.109
-	github.com/minio/minio-go/v7 v7.0.91
+	github.com/minio/minio-go/v7 v7.3.0
 	github.com/minio/mux v1.9.2
 	github.com/minio/pkg/v3 v3.1.3
 	github.com/minio/selfupdate v0.6.0
@@ -88,20 +86,20 @@ require (
 	github.com/rs/cors v1.11.1
 	github.com/secure-io/sio-go v0.3.1
 	github.com/shirou/gopsutil/v3 v3.24.5
-	github.com/tinylib/msgp v1.4.0
+	github.com/tinylib/msgp v1.6.4
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/xdg/scram v1.0.5
-	github.com/zeebo/xxh3 v1.0.2
+	github.com/zeebo/xxh3 v1.1.0
 	go.etcd.io/etcd/api/v3 v3.5.21
 	go.etcd.io/etcd/client/v3 v3.5.21
 	go.uber.org/atomic v1.11.0
 	go.uber.org/zap v1.27.0
 	goftp.io/server/v2 v2.0.1
-	golang.org/x/crypto v0.37.0
+	golang.org/x/crypto v0.55.0
 	golang.org/x/oauth2 v0.29.0
-	golang.org/x/sync v0.13.0
-	golang.org/x/sys v0.32.0
-	golang.org/x/term v0.31.0
+	golang.org/x/sync v0.22.0
+	golang.org/x/sys v0.47.0
+	golang.org/x/term v0.45.0
 	golang.org/x/time v0.11.0
 	google.golang.org/api v0.230.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -134,8 +132,10 @@ require (
 	github.com/charmbracelet/bubbles v0.20.0 // indirect
 	github.com/charmbracelet/bubbletea v1.3.4 // indirect
 	github.com/charmbracelet/lipgloss v1.0.0 // indirect
-	github.com/charmbracelet/x/ansi v0.8.0 // indirect
-	github.com/charmbracelet/x/term v0.2.1 // indirect
+	github.com/charmbracelet/x/ansi v0.11.7 // indirect
+	github.com/charmbracelet/x/term v0.2.2 // indirect
+	github.com/clipperhouse/displaywidth v0.11.0 // indirect
+	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
 	github.com/cncf/xds/go v0.0.0-20250326154945-ae57f3c0d45f // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -192,6 +192,7 @@ require (
 	github.com/jessevdk/go-flags v1.6.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/juju/ratelimit v1.0.2 // indirect
+	github.com/klauspost/crc32 v1.3.0 // indirect
 	github.com/kr/fs v0.1.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/lestrrat-go/blackmagic v1.0.2 // indirect
@@ -200,17 +201,17 @@ require (
 	github.com/lestrrat-go/iter v1.0.2 // indirect
 	github.com/lestrrat-go/jwx/v2 v2.1.4 // indirect
 	github.com/lestrrat-go/option v1.0.1 // indirect
-	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
+	github.com/lucasb-eyer/go-colorful v1.4.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20250317134145-8bc96cf8fc35 // indirect
 	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-ieproxy v0.0.12 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
-	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/mattn/go-runewidth v0.0.23 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/minio/colorjson v1.0.8 // indirect
-	github.com/minio/crc64nvme v1.0.1 // indirect
+	github.com/minio/crc64nvme v1.1.1 // indirect
 	github.com/minio/filepath v1.0.0 // indirect
 	github.com/minio/mc v0.0.0-20250313080218-cf909e1063a9 // indirect
 	github.com/minio/md5-simd v1.1.2 // indirect
@@ -264,13 +265,15 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/mod v0.24.0 // indirect
-	golang.org/x/net v0.39.0 // indirect
-	golang.org/x/text v0.24.0 // indirect
-	golang.org/x/tools v0.32.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
+	golang.org/x/tools v0.48.0 // indirect
 	google.golang.org/genproto v0.0.0-20250422160041-2d3770c4ea7f // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250422160041-2d3770c4ea7f // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250422160041-2d3770c4ea7f // indirect
 	google.golang.org/grpc v1.72.0 // indirect
-	google.golang.org/protobuf v1.36.6 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
+	gopkg.in/ini.v1 v1.67.3 // indirect
 )
