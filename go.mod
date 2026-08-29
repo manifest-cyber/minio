@@ -21,7 +21,7 @@ require (
 	github.com/beevik/ntp v1.4.3
 	github.com/buger/jsonparser v1.1.1
 	github.com/cespare/xxhash/v2 v2.3.0
-	github.com/cheggaaa/pb v1.0.29
+	github.com/cheggaaa/pb v1.0.30
 	github.com/coreos/go-oidc/v3 v3.14.1
 	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/cosnicolaou/pbzip2 v1.0.5
