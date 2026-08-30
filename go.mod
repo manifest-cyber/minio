@@ -48,7 +48,7 @@ require (
 	github.com/klauspost/readahead v1.4.0
 	github.com/klauspost/reedsolomon v1.12.4
 	github.com/lib/pq v1.10.9
-	github.com/lithammer/shortuuid/v4 v4.2.0
+	github.com/lithammer/shortuuid/v4 v4.3.0
 	github.com/miekg/dns v1.1.65
 	github.com/minio/cli v1.24.2
 	github.com/minio/console v1.7.7-0.20250905210349-2017f33b26e1
