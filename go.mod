@@ -1,8 +1,6 @@
 module github.com/minio/minio
 
-go 1.24.0
-
-toolchain go1.24.8
+go 1.25.0
 
 // Install tools using 'go install tool'.
 tool (
@@ -81,7 +79,7 @@ require (
 	github.com/prometheus/client_golang v1.22.0
 	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.63.0
-	github.com/prometheus/procfs v0.16.1
+	github.com/prometheus/procfs v0.22.0
 	github.com/puzpuzpuz/xsync/v3 v3.5.1
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/rcrowley/go-metrics v0.0.0-20250401214520-65e299d6c5c9
@@ -99,8 +97,8 @@ require (
 	goftp.io/server/v2 v2.0.1
 	golang.org/x/crypto v0.37.0
 	golang.org/x/oauth2 v0.29.0
-	golang.org/x/sync v0.13.0
-	golang.org/x/sys v0.32.0
+	golang.org/x/sync v0.22.0
+	golang.org/x/sys v0.47.0
 	golang.org/x/term v0.31.0
 	golang.org/x/time v0.11.0
 	google.golang.org/api v0.230.0
