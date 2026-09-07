@@ -79,7 +79,7 @@ require (
 	github.com/pkg/sftp v1.13.9
 	github.com/pkg/xattr v0.4.10
 	github.com/prometheus/client_golang v1.22.0
-	github.com/prometheus/client_model v0.6.2
+	github.com/prometheus/client_model v0.6.3
 	github.com/prometheus/common v0.63.0
 	github.com/prometheus/procfs v0.16.1
 	github.com/puzpuzpuz/xsync/v3 v3.5.1
@@ -272,5 +272,5 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20250422160041-2d3770c4ea7f // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250422160041-2d3770c4ea7f // indirect
 	google.golang.org/grpc v1.72.0 // indirect
-	google.golang.org/protobuf v1.36.6 // indirect
+	google.golang.org/protobuf v1.36.12 // indirect
 )
