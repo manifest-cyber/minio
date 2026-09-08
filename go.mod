@@ -88,6 +88,7 @@ require (
 	github.com/rs/cors v1.11.1
 	github.com/secure-io/sio-go v0.3.1
 	github.com/shirou/gopsutil/v3 v3.24.5
+	github.com/shirou/gopsutil/v4 v4.26.8
 	github.com/tinylib/msgp v1.4.0
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/xdg/scram v1.0.5
@@ -100,7 +101,7 @@ require (
 	golang.org/x/crypto v0.37.0
 	golang.org/x/oauth2 v0.29.0
 	golang.org/x/sync v0.13.0
-	golang.org/x/sys v0.32.0
+	golang.org/x/sys v0.41.0
 	golang.org/x/term v0.31.0
 	golang.org/x/time v0.11.0
 	google.golang.org/api v0.230.0
@@ -245,8 +246,8 @@ require (
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
-	github.com/tklauser/go-sysconf v0.3.15 // indirect
-	github.com/tklauser/numcpus v0.10.0 // indirect
+	github.com/tklauser/go-sysconf v0.3.16 // indirect
+	github.com/tklauser/numcpus v0.11.0 // indirect
 	github.com/unrolled/secure v1.17.0 // indirect
 	github.com/vbauerster/mpb/v8 v8.9.3 // indirect
 	github.com/xdg/stringprep v1.0.3 // indirect
