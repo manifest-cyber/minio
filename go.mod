@@ -1,8 +1,6 @@
 module github.com/minio/minio
 
-go 1.24.0
-
-toolchain go1.24.8
+go 1.25
 
 // Install tools using 'go install tool'.
 tool (
@@ -41,7 +39,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/inconshreveable/mousetrap v1.1.0
 	github.com/json-iterator/go v1.1.12
-	github.com/klauspost/compress v1.18.0
+	github.com/klauspost/compress v1.20.0
 	github.com/klauspost/cpuid/v2 v2.2.10
 	github.com/klauspost/filepathx v1.1.1
 	github.com/klauspost/pgzip v1.2.6
